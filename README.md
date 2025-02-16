@@ -11,3 +11,15 @@ This project focuses on classifying brain tumor images using **Convolutional Neu
 - **pituitary_tumor**  
 - **meningioma_tumor**  
 - **glioma_tumor**  
+
+## 🔧 Requirements  
+This project uses the following libraries:  
+- **TensorFlow/Keras** - Model building and training  
+- **OpenCV** - Image processing  
+- **Matplotlib/Seaborn** - Visualization  
+- **Scikit-learn** - Data splitting and evaluation metrics  
+
+## 🚀 Usage  
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
