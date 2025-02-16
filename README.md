@@ -1,25 +1,27 @@
-# Brain Tumor Classification with CNN 🧠  
+# CNN ile Beyin Tümörü Sınıflandırma 🧠  
 
-This project focuses on classifying brain tumor images using **Convolutional Neural Networks (CNN)**. The dataset consists of MRI images categorized into four classes: **no tumor, pituitary tumor, meningioma tumor, and glioma tumor**.  
+Bu proje, **Evrimsel Sinir Ağları (CNN)** kullanarak beyin tümörü görüntülerini sınıflandırmayı amaçlamaktadır. Kullanılan veri kümesi, **tümör yok, hipofiz tümörü, menenjiom tümörü ve gliom tümörü** olmak üzere dört kategoriye ayrılmış **MR görüntülerinden** oluşmaktadır.  
 
-## 📌 Dataset  
-- **Training Set:** Labeled images used for model training.  
-- **Testing Set:** Images used to evaluate the model's performance.  
+## 📌 Veri Kümesi  
+- **Eğitim Seti:** Modelin eğitilmesi için kullanılan etiketli görüntüler.  
+- **Test Seti:** Modelin doğruluğunu değerlendirmek için kullanılan görüntüler.  
 
-### Labels:  
-- **no_tumor**  
-- **pituitary_tumor**  
-- **meningioma_tumor**  
-- **glioma_tumor**  
+### Etiketler:  
+- **no_tumor (Tümör Yok)**  
+- **pituitary_tumor (Hipofiz Tümörü)**  
+- **meningioma_tumor (Menenjiom Tümörü)**  
+- **glioma_tumor (Gliom Tümörü)**  
 
-## 🔧 Requirements  
-This project uses the following libraries:  
-- **TensorFlow/Keras** - Model building and training  
-- **OpenCV** - Image processing  
-- **Matplotlib/Seaborn** - Visualization  
-- **Scikit-learn** - Data splitting and evaluation metrics  
+📂 **Veri Kümesi Bağlantısı:** [Beyin Tümörü Sınıflandırma (MRI) Veri Kümesi](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri/code?datasetId=672377&sortBy=voteCount)  
 
-## 🚀 Usage  
-1. Install dependencies:  
+## 🔧 Gereksinimler  
+Bu proje aşağıdaki kütüphaneleri kullanmaktadır:  
+- **TensorFlow/Keras** - Model oluşturma ve eğitme  
+- **OpenCV** - Görüntü işleme  
+- **Matplotlib/Seaborn** - Görselleştirme  
+- **Scikit-learn** - Veri bölme ve değerlendirme metrikleri  
+
+## 🚀 Kullanım  
+1. Bağımlılıkları yükleyin:  
    ```bash
    pip install -r requirements.txt
